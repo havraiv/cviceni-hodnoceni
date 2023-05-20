@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Star from '../Star';
 import './style.css';
-// V komponentě Rating vytvořte funkci handleGlow. Tuto funkci obdrží všechny hvězdičky jako prop. Zatím do ní dejte pouze nějaký console.log.
+
 const Rating = () => {
   const handleGlow = () => {
     console.log('lalala');
