@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
-const Star = ({ onGlow, onDim, glowing }) => {
+const Star = ({ glowing }) => {
   // const [glowing, setGlowing] = useState(false);
 
   const starClass = glowing ? 'rating__star rating__star--on' : 'rating__star';

@@ -14,31 +14,11 @@ const Rating = () => {
     <div className="rating">
       <div className="rating__value">{value}</div>
       <div className="rating__stars">
-        <Star
-          onGlow={handleGlow}
-          onDim={handleDim}
-          glowing={value >= 1 ? true : false}
-        />
-        <Star
-          onGlow={handleGlow}
-          onDim={handleDim}
-          glowing={value >= 2 ? true : false}
-        />
-        <Star
-          onGlow={handleGlow}
-          onDim={handleDim}
-          glowing={value >= 3 ? true : false}
-        />
-        <Star
-          onGlow={handleGlow}
-          onDim={handleDim}
-          glowing={value >= 4 ? true : false}
-        />
-        <Star
-          onGlow={handleGlow}
-          onDim={handleDim}
-          glowing={value >= 5 ? true : false}
-        />
+        <Star glowing={value >= 1 ? true : false} />
+        <Star glowing={value >= 2 ? true : false} />
+        <Star glowing={value >= 3 ? true : false} />
+        <Star glowing={value >= 4 ? true : false} />
+        <Star glowing={value >= 5 ? true : false} />
       </div>
     </div>
   );
