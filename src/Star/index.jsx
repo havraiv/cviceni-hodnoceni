@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-// Upravte komponentu Star tak, aby místo stavu glowing používala prop jménem glowing. Zatím zakomentujte funkci pro onClick, která nám v tuto chvíli přestane fungovat. Vyzkoušejte si však, že můžete jednotlivé hvězdičky rozsvítit nastavením prop glowing v kódu komponenty Rating.
+
 const Star = ({ onGlow, onDim, glowing }) => {
   // const [glowing, setGlowing] = useState(false);
 
