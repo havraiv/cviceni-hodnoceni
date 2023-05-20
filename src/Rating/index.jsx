@@ -4,7 +4,7 @@ import './style.css';
 
 const Rating = () => {
   const [value, setValue] = useState(0);
-  
+
   return (
     <div className="rating">
       <div className="rating__value">{value}</div>
