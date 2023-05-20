@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './style.css';
-// Nyní budeme chtít od hodnocení odečíst jedničku, když se hvězdička zhasne. Komponenta Star tedy bude mít druhou prop s názvem onDim, která se zavolá při zhasnutí hvězdičky.
+// Upravte komponentu Star tak, aby místo stavu glowing používala prop jménem glowing. Zatím zakomentujte funkci pro onClick, která nám v tuto chvíli přestane fungovat. Vyzkoušejte si však, že můžete jednotlivé hvězdičky rozsvítit nastavením prop glowing v kódu komponenty Rating.
 const Star = ({ onGlow, onDim }) => {
   const [glowing, setGlowing] = useState(false);
 
