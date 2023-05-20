@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
-
-const Star = () => {
+// Do komponenty Star přidejte prop onGlow. Toto bude funkce, která se zavolá, když se hvězdička rozsvítí.
+const Star = ({ onGlow }) => {
   const [glowing, setGlowing] = useState(false);
 
   const hvezdoSvit = () => {
